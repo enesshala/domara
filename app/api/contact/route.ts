@@ -18,7 +18,7 @@ export async function POST(req: Request) {
 
         const fullName = `${firstName} ${lastName}`.trim();
         const from = process.env.RESEND_FROM || "onboarding@resend.dev";
-        const to = "enesishala@gmail.com";
+        const to = "info@domara.com";
 
         const subject = `New contact form submission from ${fullName}`;
 
