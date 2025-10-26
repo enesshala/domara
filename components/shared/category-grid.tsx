@@ -7,15 +7,15 @@ import Image from "next/image";
 import { useI18n } from "@/components/shared/i18n-provider";
 
 const categories = [
-  { key: "category_kitchen", slug: "kitchen", image: "/img/home-kitchen.jpg" },
-  { key: "category_living_room", slug: "living_room", image: "/img/home-rooms.jpg" },
-  { key: "category_rooms", slug: "rooms", image: "/img/home-rooms.jpg" },
+  { key: "category_kitchen", slug: "kitchen", image: "/images/kuzhina/1.jpg" },
+  { key: "category_living_room", slug: "living_room", image: "/images/living-room/1.png" },
+  { key: "category_rooms", slug: "rooms", image: "/images/dhome-gjumi/1.png" },
   {
     key: "category_bathroom",
     slug: "bathroom",
-    image: "/img/home-bathroom.jpg",
+    image: "/images/bathroom-cabinet/1.png",
   },
-  { key: "category_dining", slug: "dining", image: "/img/home-dining.jpg" },
+  { key: "category_dining", slug: "dining", image: "/images/dining-table/1.png" },
 ] as const;
 
 export function CategoryGrid() {

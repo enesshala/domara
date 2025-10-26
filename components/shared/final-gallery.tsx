@@ -21,7 +21,7 @@ export function FinalGallery() {
           <motion.img
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.6 }}
-            src="/img/kuzhina/1.jpg"
+            src="/images/detajet/1.png"
             alt={t("final_alt1")}
             className="w-full h-full object-cover"
           />
@@ -36,7 +36,7 @@ export function FinalGallery() {
           <motion.img
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.6 }}
-            src="/img/kuzhina/2.jpg"
+            src="/images/detajet/2.png"
             alt={t("final_alt2")}
             className="w-full h-full object-cover"
           />
@@ -53,7 +53,7 @@ export function FinalGallery() {
           <motion.img
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.6 }}
-            src="/img/Sallon/IMG_0066.jpg"
+            src="/images/detajet/3.png"
             alt={t("final_alt3")}
             className="w-full h-full object-cover"
           />
@@ -68,7 +68,39 @@ export function FinalGallery() {
           <motion.img
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.6 }}
-            src="/img/tyrezari/IMG_0067.jpg"
+            src="/images/detajet/4.png"
+            alt={t("final_alt4")}
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+      </div>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 mt-0">
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ delay: 0.6, duration: 0.8 }}
+          className="relative aspect-[4/3] overflow-hidden group"
+        >
+          <motion.img
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.6 }}
+            src="/images/detajet/5.png"
+            alt={t("final_alt3")}
+            className="w-full h-full object-cover"
+          />
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          animate={isInView ? { opacity: 1, y: 0 } : {}}
+          transition={{ delay: 0.8, duration: 0.8 }}
+          className="relative aspect-[4/3] overflow-hidden group"
+        >
+          <motion.img
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 0.6 }}
+            src="/images/detajet/6.png"
             alt={t("final_alt4")}
             className="w-full h-full object-cover"
           />
