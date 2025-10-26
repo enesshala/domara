@@ -6,6 +6,7 @@ import Link from "next/link";
 
 const categories = [
   { id: "kitchen", key: "prod_cat_kitchen" },
+  { id: "living_room", key: "prod_cat_living_room" },
   { id: "rooms", key: "prod_cat_rooms" },
   { id: "bathroom", key: "prod_cat_bathroom" },
   { id: "dining", key: "prod_cat_dining" },

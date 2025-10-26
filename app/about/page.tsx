@@ -12,17 +12,19 @@ import AnimatedTestimonialsDemo from "@/components/shared/about/testimonials";
 export default function AboutPage() {
   return (
     <main className="min-h-screen">
-      <Navigation />
-      <AboutHero />
-      {/* <WhyChooseUs /> */}
-      <ProjectsPreview />
-      <Statistics />
-      <ProjectsDetailed />
-      <div className="bg-white">
-        <AnimatedTestimonialsDemo />
+      <div className="relative z-10">
+        <Navigation />
+        <AboutHero />
+        {/* <WhyChooseUs /> */}
+        <ProjectsPreview />
+        <Statistics />
+        <ProjectsDetailed />
+        <div className="bg-white">
+          <AnimatedTestimonialsDemo />
+        </div>
+        {/* <Partners /> */}
+        {/* <ServiceCards /> */}
       </div>
-      {/* <Partners /> */}
-      {/* <ServiceCards /> */}
       <Footer />
     </main>
   );

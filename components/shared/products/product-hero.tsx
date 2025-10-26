@@ -20,7 +20,7 @@ const productImages = {
     "/img/wc/3.jpg",
     "/img/wc/4.jpg",
   ],
-  livingRoom: [
+  living_room: [
     "/img/sallon/1.jpg",
     "/img/sallon/2.jpg",
     "/img/sallon/IMG_0066.jpg",
@@ -62,7 +62,7 @@ export function ProductHero({ category }: ProductHeroProps) {
   }
 
   return (
-    <section className="relative h-[90vh] bg-white overflow-hidden">
+    <section className="relative h-screen bg-white overflow-hidden">
       <AnimatePresence mode="wait">
         <motion.div
           key={`${category}-${currentIndex}`}

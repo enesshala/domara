@@ -11,7 +11,7 @@ import { Footer } from "@/components/shared/footer";
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <div className="z-10">
+      <div className="relative z-10">
         <Navigation />
         <HeroSection />
         <CategoryGrid />

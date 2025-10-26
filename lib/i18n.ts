@@ -75,6 +75,7 @@ const en: Dictionary = {
   location_primary: "Babush - Magjistralja Ferizaj Prishtinë",
   // Products - category nav
   prod_cat_kitchen: "KITCHEN",
+  prod_cat_living_room: "LIVING ROOM",
   prod_cat_rooms: "ROOMS",
   prod_cat_bathroom: "BATHROOM CABINET",
   prod_cat_dining: "DINING TABLE",
@@ -87,6 +88,10 @@ const en: Dictionary = {
   about_bathroom_sub: "About Bathroom Cabinet",
   about_bathroom_body:
     "Calm, spa‑like utility. From moisture‑proof finishes to soft‑close joinery, our bathroom systems turn compact spaces into serene sanctuaries—elegant, durable, and effortless to maintain.",
+  about_living_room_hero: "LIVING ROOM",
+  about_living_room_sub: "About Living Room",
+  about_living_room_body:
+    "Warmth meets sophistication. Our living spaces blend plush seating, elegant materials, and thoughtful lighting to create gathering spots that feel both luxurious and lived-in.",
   about_rooms_hero: "ROOMS",
   about_rooms_sub: "About Rooms",
   about_rooms_body:
@@ -103,6 +108,7 @@ const en: Dictionary = {
   footer_products: "Products",
   footer_contact: "Contact",
   footer_kitchen: "Kitchen",
+  footer_living_room: "Living Room",
   footer_rooms: "Rooms",
   footer_bath: "Bathroom Cabinet",
   footer_dining: "Dining Table",
@@ -183,6 +189,7 @@ const sq: Dictionary = {
   location_primary: "Babush - Magjistralja Ferizaj Prishtinë",
   // Products - category nav
   prod_cat_kitchen: "KUZHINA",
+  prod_cat_living_room: "SALLONI",
   prod_cat_rooms: "DHOMAT",
   prod_cat_bathroom: "KABINETI I BANJËS",
   prod_cat_dining: "TRYEZA E NGRËNIES",
@@ -195,6 +202,10 @@ const sq: Dictionary = {
   about_bathroom_sub: "Rreth Kabinetit të Banjës",
   about_bathroom_body:
     "Qetësi si në spa. Përfundime rezistente ndaj lagështisë dhe mekanizma të butë—praktike, elegante dhe të lehta për mirëmbajtje.",
+  about_living_room_hero: "SALLONI",
+  about_living_room_sub: "Rreth Sallonit",
+  about_living_room_body:
+    "Ngrohtësia takon sofistikimin. Hapësirat tona të banimit kombinojnë vendosje të buta, materiale elegante dhe ndriçim të përmendjes për të krijuar vende grumbullimi që ndihen si luksoze dhe të jetuara.",
   about_rooms_hero: "DHOMAT",
   about_rooms_sub: "Rreth Dhoma",
   about_rooms_body:
@@ -211,6 +222,7 @@ const sq: Dictionary = {
   footer_products: "Produkte",
   footer_contact: "Kontakt",
   footer_kitchen: "Kuzhina",
+  footer_living_room: "Salloni",
   footer_rooms: "Dhoma",
   footer_bath: "Banjë",
   footer_dining: "Tavolina e ngrënies",
@@ -290,6 +302,7 @@ const de: Dictionary = {
   location_primary: "Babush - Magjistralja Ferizaj Prishtinë",
   // Products - category nav
   prod_cat_kitchen: "KÜCHE",
+  prod_cat_living_room: "WOHNZIMMER",
   prod_cat_rooms: "ZIMMER",
   prod_cat_bathroom: "BADEZIMMERSCHRANK",
   prod_cat_dining: "ESSTISCH",
@@ -302,6 +315,10 @@ const de: Dictionary = {
   about_bathroom_sub: "Über Badmöbel",
   about_bathroom_body:
     "Ruhige, spa‑ähnliche Funktion. Feuchtigkeitsresistente Oberflächen und Soft‑Close—elegant, langlebig, pflegeleicht.",
+  about_living_room_hero: "WOHNZIMMER",
+  about_living_room_sub: "Über das Wohnzimmer",
+  about_living_room_body:
+    "Wärme trifft auf Eleganz. Unsere Wohnräume kombinieren gemütliche Sitzgelegenheiten, elegante Materialien und durchdachte Beleuchtung, um Treffpunkte zu schaffen, die luxuriös und wohnlich wirken.",
   about_rooms_hero: "ZIMMER",
   about_rooms_sub: "Über Zimmer",
   about_rooms_body:
@@ -318,6 +335,7 @@ const de: Dictionary = {
   footer_products: "Produkte",
   footer_contact: "Kontakt",
   footer_kitchen: "Küche",
+  footer_living_room: "Wohnzimmer",
   footer_rooms: "Zimmer",
   footer_bath: "Badezimmerschrank",
   footer_dining: "Esstisch",

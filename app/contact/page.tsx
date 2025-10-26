@@ -6,9 +6,11 @@ import { ContactForm } from "@/components/shared/contact/contact-form";
 export default function ContactPage() {
   return (
     <main className="min-h-screen">
-      <Navigation />
-      <ContactForm />
-      <LocationsSection />
+      <div className="relative z-10">
+        <Navigation />
+        <ContactForm />
+        <LocationsSection />
+      </div>
       <Footer />
     </main>
   );

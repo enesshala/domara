@@ -17,11 +17,13 @@ function ProductsContent() {
 
   return (
     <main className="min-h-screen">
-      <Navigation />
-      <CategoryNav activeCategory={category} />
-      <ProductHero category={category} />
-      <AboutDeco category={category} />
-      {/* <Partners /> */}
+      <div className="relative z-10">
+        <Navigation />
+        <CategoryNav activeCategory={category} />
+        <ProductHero category={category} />
+        <AboutDeco category={category} />
+        {/* <Partners /> */}
+      </div>
       <Footer />
     </main>
   );

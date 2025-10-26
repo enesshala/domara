@@ -52,7 +52,7 @@ export function AboutDeco({ category }: AboutDecoProps) {
   });
 
   const copy = ((): { hero: string; sub: string; body: string } => {
-    if (["kitchen", "bathroom", "rooms", "dining"].includes(category)) {
+    if (["kitchen", "bathroom", "rooms", "dining", "living_room"].includes(category)) {
       return translate(category);
     }
     return {

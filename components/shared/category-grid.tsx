@@ -8,7 +8,7 @@ import { useI18n } from "@/components/shared/i18n-provider";
 
 const categories = [
   { key: "category_kitchen", slug: "kitchen", image: "/img/home-kitchen.jpg" },
-  { key: "category_living_room", slug: "rooms", image: "/img/home-rooms.jpg" },
+  { key: "category_living_room", slug: "living_room", image: "/img/home-rooms.jpg" },
   { key: "category_rooms", slug: "rooms", image: "/img/home-rooms.jpg" },
   {
     key: "category_bathroom",

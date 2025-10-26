@@ -77,8 +77,8 @@ export function Navigation() {
       transition={{ duration: 0.3, ease: "easeOut" }}
       className="fixed top-0 left-0 right-0 z-50 px-6 py-6 md:px-12 bg-black/80 backdrop-blur-xs"
     >
-      <div className="flex items-center justify-between">
-        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }}>
+      <div className="grid grid-cols-[1fr_auto_1fr] items-center">
+        <motion.div whileHover={{ scale: 1.05 }} transition={{ duration: 0.2 }} className="justify-self-start">
           <Link
             href="/"
             className="text-sm font-light tracking-widest text-foreground uppercase"
@@ -87,7 +87,7 @@ export function Navigation() {
           </Link>
         </motion.div>
 
-        <div className="hidden md:flex items-center gap-8 tracking-wider text-white">
+        <div className="hidden md:flex items-center gap-8 tracking-wider text-white justify-self-center">
           {(
             [
               { label: t("nav_home"), href: "/" },
@@ -118,7 +118,7 @@ export function Navigation() {
         </div>
 
         {/* Right-side controls: language dropdown (desktop) + mobile toggle */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 justify-self-end">
           <div ref={langRef} className="relative hidden md:block">
             <button
               onClick={() => setLangOpen((o) => !o)}

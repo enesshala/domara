@@ -27,7 +27,7 @@ export function Footer() {
       title: t("footer_pages"),
       links: [
         { label: t("footer_home"), href: "/" },
-        { label: t("footer_products"), href: "/products" },
+        { label: t("footer_products"), href: "/products?category=kitchen" },
         { label: t("footer_contact"), href: "/contact" },
       ],
     },
@@ -35,6 +35,7 @@ export function Footer() {
       title: t("footer_categories"),
       links: [
         { label: t("footer_kitchen"), href: "/products?category=kitchen" },
+        { label: t("footer_living_room"), href: "/products?category=living_room" },
         { label: t("footer_rooms"), href: "/products?category=rooms" },
         { label: t("footer_bath"), href: "/products?category=bathroom" },
         { label: t("footer_dining"), href: "/products?category=dining" },
@@ -63,7 +64,7 @@ export function Footer() {
       />
       <footer
         ref={contentRef}
-        className="fixed bottom-0 left-0 right-0 -z-10 bg-[#1a1410] py-12 md:py-20 text-white max-h-screen overflow-y-auto"
+        className="fixed bottom-0 left-0 right-0 z-[1] bg-[#1a1410] py-12 md:py-20 text-white max-h-screen overflow-y-auto"
       >
         <div className="container mx-auto px-6 md:px-12">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
