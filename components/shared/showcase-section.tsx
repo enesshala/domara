@@ -14,7 +14,7 @@ export function ShowcaseSection() {
 
       <motion.video
         src="/video/domara.mp4"
-        className="object-cover"
+        className="w-full h-[50vh] lg:h-[70vh] object-cover"
         autoPlay
         loop
         muted
