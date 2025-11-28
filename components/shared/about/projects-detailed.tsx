@@ -15,7 +15,7 @@ const projects = [
   },
   {
     titleKey: "about_det_p2_title",
-    image: "/img/dhome/2.jpg",
+    image: "/img/dhome/3.jpg",
     link: "/products?category=rooms",
     descKey: "about_det_p2_desc",
   },
